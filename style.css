@@ -234,7 +234,7 @@ main{
 		margin-top: 0.5em;
 		margin-bottom: 0.2em;
 	}
-		#time-card{
+	.time-card{
 		width: 100%;
 		position: absolute;
 		margin-bottom: 0;
