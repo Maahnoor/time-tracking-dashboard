@@ -107,7 +107,7 @@ main{
 }
 
 
-#time-card{
+.time-card{
 	margin-bottom: 2em;
 	background-color: var(--Darkblue);
 	border-radius: 10px;
@@ -115,32 +115,32 @@ main{
 	transition: 0.3s;
 }
 
-#time-card:hover{
+.time-card:hover{
 	background-color: var(--Desaturatedblue);
 	cursor: pointer;
 }
 
-#heading{
+.heading{
 	font-weight: var(--fw-medium);
 }
-#current-time{
+.current-time{
 	font-weight: var(--fw-light);
 	margin-top: 0.2em;
 }
-#previous-time{
+.previous-time{
 	font-size: 15px;
 	color: var(--PaleBlue);
 	font-weight: var(--fw-light);
 }
 
-#heading-container{
+.heading-container{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
 
-#time-container{
+.time-container{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -230,7 +230,7 @@ main{
 
 	}
 	
-	#current-time{
+	.current-time{
 		margin-top: 0.5em;
 		margin-bottom: 0.2em;
 	}
@@ -301,7 +301,7 @@ main{
 		padding-left: 2em;
 	}
 
-	#time-container{
+	.time-container{
 		flex-direction: column;
 		align-items: flex-start;
 	}
