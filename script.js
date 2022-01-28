@@ -10,14 +10,14 @@ function change(option,txt){
            obj.forEach(item=>{
             show.innerHTML+=
             `<div class="${item.title}">
-                <div id="time-card">
-                <div id="heading-container">
-                  <h3 id="heading">${item.title}</h3>
-                  <img src="images/icon-ellipsis.svg">
+                <div class="time-card">
+                <div class="heading-container">
+                  <h3 class="heading">${item.title}</h3>
+                  <img src="images/icon-ellipsis.svg" alt="ellipsis icon">
                   </div>
-                  <div id="time-container">
-                  <h1 id="current-time">${item.timeframes[option].current}hrs</h1>
-                  <p id="previous-time">${txt} - ${item.timeframes[option].previous}hrs</p>
+                  <div class="time-container">
+                  <h1 class="current-time">${item.timeframes[option].current}hrs</h1>
+                  <p class="previous-time">${txt} - ${item.timeframes[option].previous}hrs</p>
                   </div>
                 </div>
             </div>`
